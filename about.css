@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    background: #fcf0f0;
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+  }
+ li {
+    display: inline;
+  }
+  ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+
+  }
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 35px;
+    color: black;
+    font-size: 16px;
+    column-gap: 20px;
+    font-weight: bold;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+ /* Navbar links */
+ .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.sec{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-top: 1px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.El1{
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    line-height: 50px;
+    margin: auto;
+    vertical-align:middle;
+       
+}
+.El1 h3{
+    color: coral;
+    text-align: center;
+    padding-top: 10px; 
+}
+.El1 p{
+    padding-left: 10px;
+    text-align: center;
+    
+}
+.El1 h4{
+  color: coral;
+  text-align: center;
+  padding-top: 0px;
+}
+.El1 h5{color: coral;
+  text-align: center;
+  padding-top: 0px;
+}
+h5{
+  margin: auto;
+
+}
+
+       
